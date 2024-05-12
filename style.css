@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    margin: auto;
+}
+
+header nav {
+    width: 1100px;
+    margin: auto;
+}
+
+header nav ul {
+    display: inline-block;
+    margin: 10px 0px;
+
+}
+
+header nav ul:nth-child(2) {
+    float: right;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: auto;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    padding: 8px 16px;
+    margin: 0px 20px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+section {
+    width: 100%;
+    background-color: white;
+}
+
+.asos {
+    width: 100%;
+}
+
+.asos .card___wrapper {
+    width: 1100px;
+    margin: auto;
+    background-color: #0EB4C1;
+}
+
+.asos .card___wrapper .card {
+    display: inline-block;
+    width: 30%;
+    color: white;
+    vertical-align: middle;
+    margin: 20px 50px 0px 100px;
+}
+
+.asos .card___wrapper .card:nth-child(1) {
+    width: 40%;
+
+}
+
+.asos .card___wrapper .card img {
+    width: 100%;
+}
+
+.asos .card___wrapper .card h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.asos .card___wrapper .card p {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+
+.btn {
+    background-color: #DE2E54;
+    color: white;
+    border: 1px solid #DE2E54;
+    width: 150px;
+    height: 39px;
+    padding: 12px 16px;
+    border-radius: 7px;
+    margin-left: 40%;
+}
+
+.urta {
+    width: 100%;
+}
+
+.urta .card___wrapper2 {
+    background-color: rgb(245, 244, 244);
+    width: 1100px;
+    margin: auto;
+    padding: 80px;
+}
+
+.urta .card___wrapper2 .h1 {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+.urta .card___wrapper2 .card1{
+    width: 90%;
+    margin: 20px 50px;
+    text-align: center;
+}
+.urta .card___wrapper2 .card1 .rasm{
+    display: inline-block;
+    vertical-align: middle;
+}
+.urta .card___wrapper2 .card1 .rasm img{
+    width: 160px;
+}
+.urta .card___wrapper2 .card1 .matn{
+    display: inline-block;
+    vertical-align: middle;
+    width: 55%;
+    margin: 0px 20px;
+    text-align: left;
+    vertical-align: middle;
+}
+.oxir {
+    width: 100%;
+}
+.oxir .card___wrapper3{
+    width: 1100px;
+    margin: auto;
+    background-color: #0EB4C1;
+}
+.oxir .card___wrapper3 .first{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    padding: 40px 0px;
+}
+.oxir .card___wrapper3 .but{
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: #0EB4C1;
+    color: white;
+    border: 1px solid white;
+
+}
+.ortiqcha{
+    width: 1100px;
+    margin: auto;
+    height: 50px;
+    background-color: #0EB4C1;
+}
+
+footer {
+    width: 100%;
+    margin: auto;
+}
+footer nav {
+    width: 1100px;
+    margin: auto;
+    background-color: #222222;
+}
+
+footer nav ul {
+    display: inline-block;
+    margin: 10px 0px;
+
+}
+
+footer nav ul:nth-child(2) {
+    float: right;
+    margin-top: 25px;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: auto;
+}
+
+footer nav ul li a {
+    text-decoration: none;
+    padding: 16px 16px;
+    margin: 0px 20px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    
+}
